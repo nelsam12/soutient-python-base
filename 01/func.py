@@ -27,6 +27,7 @@ def save_student(etudiant: dict) -> int:
     db.students.append(etudiant)
     return len(db.students)
 
+
 def input_student() -> dict:
     return {
         "matricule" : generate_matricule(),
@@ -49,6 +50,7 @@ def display_students(students : list = db.students):
         "AGE" : ""
     }
     ))
+
 
 def generate_matricule():
     return f"MAT-{len(db.students) + 1}"
