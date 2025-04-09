@@ -67,3 +67,7 @@ def get_mark_of_student(student : dict):
 
 def get_average_of_student(student : dict):
     pass
+
+
+if __name__ == "__main__":
+    pass
